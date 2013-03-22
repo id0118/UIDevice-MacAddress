@@ -13,7 +13,7 @@
 #include <net/if_dl.h>
 @implementation UIDevice (MacAddress)
 
-+ (NSString *)getMacAddress
++ (NSString *)macAddress
 {
     int                 mgmtInfoBase[6];
     char                *msgBuffer = NULL;
